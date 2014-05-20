@@ -1,0 +1,811 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0818F9FFDB824190950470A9 /* libPods-KZImageSplitView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CC503F7E0D4EF2BC2E5D69 /* libPods-KZImageSplitView.a */; };
+		E291D27E8962AF8D554CC924 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E291D18C54B50F07BBA49F3D /* Foundation.framework */; };
+		E291D2EF22B18001496EECA6 /* imageA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E291D96D88E98C72094FEF07 /* imageA.jpg */; };
+		E291D31A29CEDBBC2925F229 /* KZIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E291D40D63BB7A72225B659D /* KZIAppDelegate.m */; };
+		E291D321259412F31E0A46D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E291D03843592B92274E5315 /* InfoPlist.strings */; };
+		E291D36B3026E36F48FCB205 /* KZImageSplitViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E291DF77F7549525E220BF93 /* KZImageSplitViewTests.m */; };
+		E291D3D5CE9455524DE91E60 /* KZImageSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = E291D4F2039759A86DDC734B /* KZImageSplitView.m */; };
+		E291D555F56D6ACDB3F79A43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E291D8286E6539639512315F /* UIKit.framework */; };
+		E291D5F0F43F33FC6EFA5A11 /* KZISampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E291DFAEFC8E3F9E5290D311 /* KZISampleViewController.m */; };
+		E291D817373ABED794453D9E /* imageB.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E291D0D3405830BA50AB025B /* imageB.jpg */; };
+		E291D8B487C42B37AFFD22BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E291DDD062DA63570C00966D /* Images.xcassets */; };
+		E291D9D7C419349606E8F5EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E291DFC54323956E2A861B66 /* main.m */; };
+		E291DB8F6FE93FD635DC7074 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E291DDF6E3CF5138B2423FF7 /* InfoPlist.strings */; };
+		E291DE065E3E806690FAD3D9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E291DDBA67150AFDC59E7B39 /* XCTest.framework */; };
+		E291DE725B83A9C182728937 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E291D2CC921833FE629A964D /* CoreGraphics.framework */; };
+		E291DFE3CF390D3C66AD87F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E291D8286E6539639512315F /* UIKit.framework */; };
+		E291DFE7EB32D07815721A85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E291D18C54B50F07BBA49F3D /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E291D94F9C839F52FC2AA414 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E291D06E3B89E155355EAF63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E291D6FC90093F7186077921;
+			remoteInfo = KZImageSplitView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59BE19E373BB493485342F55 /* Pods-KZImageSplitView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZImageSplitView.xcconfig"; path = "Pods/Pods-KZImageSplitView.xcconfig"; sourceTree = "<group>"; };
+		72CC503F7E0D4EF2BC2E5D69 /* libPods-KZImageSplitView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KZImageSplitView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E291D0B8A19178AB90A0BCD8 /* KZImageSplitView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KZImageSplitView-Prefix.pch"; sourceTree = "<group>"; };
+		E291D0D3405830BA50AB025B /* imageB.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imageB.jpg; sourceTree = "<group>"; };
+		E291D18C54B50F07BBA49F3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E291D1C64041B94F9A1797F5 /* KZImageSplitViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "KZImageSplitViewTests-Info.plist"; sourceTree = "<group>"; };
+		E291D2CC921833FE629A964D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E291D2CF177530B181BF2D44 /* KZISampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZISampleViewController.h; sourceTree = "<group>"; };
+		E291D31CC218BB76F56DA6F3 /* KZImageSplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZImageSplitView.h; sourceTree = "<group>"; };
+		E291D3A2D30C3B992907E5E2 /* KZImageSplitViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KZImageSplitViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E291D40D63BB7A72225B659D /* KZIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KZIAppDelegate.m; sourceTree = "<group>"; };
+		E291D4F2039759A86DDC734B /* KZImageSplitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZImageSplitView.m; sourceTree = "<group>"; };
+		E291D8286E6539639512315F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E291D8BCA7D54C42C11BF5A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E291D94E60E6805CF1D74411 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E291D96D88E98C72094FEF07 /* imageA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imageA.jpg; sourceTree = "<group>"; };
+		E291DAC30963786076838D7C /* KZImageSplitView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZImageSplitView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E291DC2FA4071CBE4792F41F /* KZIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KZIAppDelegate.h; sourceTree = "<group>"; };
+		E291DDBA67150AFDC59E7B39 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E291DDD062DA63570C00966D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E291DE45A11B0ADC62A919F7 /* KZImageSplitView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "KZImageSplitView-Info.plist"; sourceTree = "<group>"; };
+		E291DF77F7549525E220BF93 /* KZImageSplitViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KZImageSplitViewTests.m; sourceTree = "<group>"; };
+		E291DFAEFC8E3F9E5290D311 /* KZISampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZISampleViewController.m; sourceTree = "<group>"; };
+		E291DFC54323956E2A861B66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E291D2FCB227F7452AF3E060 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E291DFE7EB32D07815721A85 /* Foundation.framework in Frameworks */,
+				E291DE725B83A9C182728937 /* CoreGraphics.framework in Frameworks */,
+				E291DFE3CF390D3C66AD87F1 /* UIKit.framework in Frameworks */,
+				0818F9FFDB824190950470A9 /* libPods-KZImageSplitView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E291D38917586BBBAAFD47C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E291DE065E3E806690FAD3D9 /* XCTest.framework in Frameworks */,
+				E291D27E8962AF8D554CC924 /* Foundation.framework in Frameworks */,
+				E291D555F56D6ACDB3F79A43 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E291D08713665FF529D5B661 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E291DE45A11B0ADC62A919F7 /* KZImageSplitView-Info.plist */,
+				E291D03843592B92274E5315 /* InfoPlist.strings */,
+				E291DFC54323956E2A861B66 /* main.m */,
+				E291D0B8A19178AB90A0BCD8 /* KZImageSplitView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E291D1421C502423D2C56602 /* KZImageSplitView */ = {
+			isa = PBXGroup;
+			children = (
+				E291D08713665FF529D5B661 /* Supporting Files */,
+				E291DC2FA4071CBE4792F41F /* KZIAppDelegate.h */,
+				E291D40D63BB7A72225B659D /* KZIAppDelegate.m */,
+				E291DDD062DA63570C00966D /* Images.xcassets */,
+				E291DFE5DC35A80F214FCEA4 /* Assets */,
+				E291D362E16E561143759C9C /* KZImageSplitView */,
+				E291DFAEFC8E3F9E5290D311 /* KZISampleViewController.m */,
+				E291D2CF177530B181BF2D44 /* KZISampleViewController.h */,
+			);
+			path = KZImageSplitView;
+			sourceTree = "<group>";
+		};
+		E291D362E16E561143759C9C /* KZImageSplitView */ = {
+			isa = PBXGroup;
+			children = (
+				E291D4F2039759A86DDC734B /* KZImageSplitView.m */,
+				E291D31CC218BB76F56DA6F3 /* KZImageSplitView.h */,
+			);
+			path = KZImageSplitView;
+			sourceTree = "<group>";
+		};
+		E291D3656B23602A58D03881 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E291D18C54B50F07BBA49F3D /* Foundation.framework */,
+				E291D2CC921833FE629A964D /* CoreGraphics.framework */,
+				E291D8286E6539639512315F /* UIKit.framework */,
+				E291DDBA67150AFDC59E7B39 /* XCTest.framework */,
+				72CC503F7E0D4EF2BC2E5D69 /* libPods-KZImageSplitView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E291D790183EE3191B070A95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E291DAC30963786076838D7C /* KZImageSplitView.app */,
+				E291D3A2D30C3B992907E5E2 /* KZImageSplitViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E291DAE6AC47640C1615950C /* KZImageSplitViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				E291DD63F7907B548B8CACEF /* Supporting Files */,
+				E291DF77F7549525E220BF93 /* KZImageSplitViewTests.m */,
+			);
+			path = KZImageSplitViewTests;
+			sourceTree = "<group>";
+		};
+		E291DCEDF84B3F3CBB56677A = {
+			isa = PBXGroup;
+			children = (
+				E291D790183EE3191B070A95 /* Products */,
+				E291D3656B23602A58D03881 /* Frameworks */,
+				E291D1421C502423D2C56602 /* KZImageSplitView */,
+				E291DAE6AC47640C1615950C /* KZImageSplitViewTests */,
+				59BE19E373BB493485342F55 /* Pods-KZImageSplitView.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		E291DD63F7907B548B8CACEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E291D1C64041B94F9A1797F5 /* KZImageSplitViewTests-Info.plist */,
+				E291DDF6E3CF5138B2423FF7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E291DFE5DC35A80F214FCEA4 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E291D96D88E98C72094FEF07 /* imageA.jpg */,
+				E291D0D3405830BA50AB025B /* imageB.jpg */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E291D6598ED9DD465CB09A8A /* KZImageSplitViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E291DF0947216377759260A1 /* Build configuration list for PBXNativeTarget "KZImageSplitViewTests" */;
+			buildPhases = (
+				E291DDC7853586E0A7BE056C /* Sources */,
+				E291D38917586BBBAAFD47C3 /* Frameworks */,
+				E291D30C53F407D830231E82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E291D108B264C56550878A86 /* PBXTargetDependency */,
+			);
+			name = KZImageSplitViewTests;
+			productName = KZImageSplitViewTests;
+			productReference = E291D3A2D30C3B992907E5E2 /* KZImageSplitViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E291D6FC90093F7186077921 /* KZImageSplitView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E291DCA947AE6A7BCA01CF7B /* Build configuration list for PBXNativeTarget "KZImageSplitView" */;
+			buildPhases = (
+				866C02F2797E49BE8239CC67 /* Check Pods Manifest.lock */,
+				E291D5262D4BBF169BF34561 /* Sources */,
+				E291D2FCB227F7452AF3E060 /* Frameworks */,
+				E291D39B2472CABEE4F5EC36 /* Resources */,
+				CDC447C1079A4B6FB5548337 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KZImageSplitView;
+			productName = KZImageSplitView;
+			productReference = E291DAC30963786076838D7C /* KZImageSplitView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E291D06E3B89E155355EAF63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = pixle;
+			};
+			buildConfigurationList = E291DA4D413A3A64A39ECA0E /* Build configuration list for PBXProject "KZImageSplitView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E291DCEDF84B3F3CBB56677A;
+			productRefGroup = E291D790183EE3191B070A95 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+			);
+			projectRoot = "";
+			targets = (
+				E291D6FC90093F7186077921 /* KZImageSplitView */,
+				E291D6598ED9DD465CB09A8A /* KZImageSplitViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E291D30C53F407D830231E82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E291DB8F6FE93FD635DC7074 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E291D39B2472CABEE4F5EC36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E291D321259412F31E0A46D3 /* InfoPlist.strings in Resources */,
+				E291D8B487C42B37AFFD22BB /* Images.xcassets in Resources */,
+				E291D2EF22B18001496EECA6 /* imageA.jpg in Resources */,
+				E291D817373ABED794453D9E /* imageB.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		866C02F2797E49BE8239CC67 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CDC447C1079A4B6FB5548337 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-KZImageSplitView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E291D5262D4BBF169BF34561 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E291D9D7C419349606E8F5EC /* main.m in Sources */,
+				E291D31A29CEDBBC2925F229 /* KZIAppDelegate.m in Sources */,
+				E291D3D5CE9455524DE91E60 /* KZImageSplitView.m in Sources */,
+				E291D5F0F43F33FC6EFA5A11 /* KZISampleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E291DDC7853586E0A7BE056C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E291D36B3026E36F48FCB205 /* KZImageSplitViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E291D108B264C56550878A86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E291D6FC90093F7186077921 /* KZImageSplitView */;
+			targetProxy = E291D94F9C839F52FC2AA414 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E291D03843592B92274E5315 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E291D8BCA7D54C42C11BF5A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E291DDF6E3CF5138B2423FF7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E291D94E60E6805CF1D74411 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		077F8C28D1E84CD58DE2A3F4 /* adhoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KZImageSplitView/KZImageSplitView-Prefix.pch";
+				INFOPLIST_FILE = "KZImageSplitViewTests/KZImageSplitViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = adhoc;
+		};
+		3608741C066F43B3B940B2B3 /* adhoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59BE19E373BB493485342F55 /* Pods-KZImageSplitView.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KZImageSplitView/KZImageSplitView-Prefix.pch";
+				INFOPLIST_FILE = "KZImageSplitView/KZImageSplitView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = adhoc;
+		};
+		7B9570B3456649B89F409A94 /* profiling */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+			};
+			name = profiling;
+		};
+		7C2C08BD8AAE4A08BE536D65 /* profiling */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KZImageSplitView/KZImageSplitView-Prefix.pch";
+				INFOPLIST_FILE = "KZImageSplitViewTests/KZImageSplitViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = profiling;
+		};
+		91F5F46C0E5748F18EBEBC80 /* profiling */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59BE19E373BB493485342F55 /* Pods-KZImageSplitView.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KZImageSplitView/KZImageSplitView-Prefix.pch";
+				INFOPLIST_FILE = "KZImageSplitView/KZImageSplitView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = profiling;
+		};
+		9EF7CE7BB2E64FF2BB60D5A5 /* adhoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+			};
+			name = adhoc;
+		};
+		C440417F14A64B0C9F11DA0C /* adhoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+			};
+			name = adhoc;
+		};
+		D422D542E1884E42AB2D10F5 /* profiling */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+			};
+			name = profiling;
+		};
+		E291D46E728AED3967356645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KZImageSplitView/KZImageSplitView-Prefix.pch";
+				INFOPLIST_FILE = "KZImageSplitViewTests/KZImageSplitViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		E291D900D382A49BFB531101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KZImageSplitView/KZImageSplitView-Prefix.pch";
+				INFOPLIST_FILE = "KZImageSplitViewTests/KZImageSplitViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E291DAB18BFC35EDFC954C46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E291DAC5C9F3C342B1F1DE55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59BE19E373BB493485342F55 /* Pods-KZImageSplitView.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KZImageSplitView/KZImageSplitView-Prefix.pch";
+				INFOPLIST_FILE = "KZImageSplitView/KZImageSplitView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E291DAF21572F8129CADC211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59BE19E373BB493485342F55 /* Pods-KZImageSplitView.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KZImageSplitView/KZImageSplitView-Prefix.pch";
+				INFOPLIST_FILE = "KZImageSplitView/KZImageSplitView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E291DEBEA1ECF8F717BC946C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E291DA4D413A3A64A39ECA0E /* Build configuration list for PBXProject "KZImageSplitView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E291DAB18BFC35EDFC954C46 /* Release */,
+				E291DEBEA1ECF8F717BC946C /* Debug */,
+				C440417F14A64B0C9F11DA0C /* adhoc */,
+				9EF7CE7BB2E64FF2BB60D5A5 /* adhoc */,
+				7B9570B3456649B89F409A94 /* profiling */,
+				D422D542E1884E42AB2D10F5 /* profiling */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E291DCA947AE6A7BCA01CF7B /* Build configuration list for PBXNativeTarget "KZImageSplitView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E291DAC5C9F3C342B1F1DE55 /* Release */,
+				E291DAF21572F8129CADC211 /* Debug */,
+				3608741C066F43B3B940B2B3 /* adhoc */,
+				91F5F46C0E5748F18EBEBC80 /* profiling */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E291DF0947216377759260A1 /* Build configuration list for PBXNativeTarget "KZImageSplitViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E291D46E728AED3967356645 /* Release */,
+				E291D900D382A49BFB531101 /* Debug */,
+				077F8C28D1E84CD58DE2A3F4 /* adhoc */,
+				7C2C08BD8AAE4A08BE536D65 /* profiling */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E291D06E3B89E155355EAF63 /* Project object */;
+}

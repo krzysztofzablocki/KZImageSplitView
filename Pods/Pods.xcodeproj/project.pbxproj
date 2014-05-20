@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		122A85D3B5D74A54A46817FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5329747826496DBA0E73A9 /* Foundation.framework */; };
+		5A3ECBD17F264EADB24F8160 /* libPods-KZImageSplitView-KZAsserts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3E30B00488465889AE28DD /* libPods-KZImageSplitView-KZAsserts.a */; };
+		6B542D7E60F74F0FA6B89CE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5329747826496DBA0E73A9 /* Foundation.framework */; };
+		780C25DC99DD4A6E89A959B7 /* Pods-KZImageSplitView-KZAsserts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B0357ECAAE4F5A82CE08EE /* Pods-KZImageSplitView-KZAsserts-dummy.m */; };
+		8E019FB21EDB47E4838C53F5 /* KZAsserts.h in Headers */ = {isa = PBXBuildFile; fileRef = 878432CB3B80487E800DE331 /* KZAsserts.h */; };
+		9555C1F4E68F4C4A9A80F6B2 /* Pods-KZImageSplitView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF099727486F46259AAD9A73 /* Pods-KZImageSplitView-dummy.m */; };
+		E906EEB26B934918BBF44D0B /* KZAsserts.m in Sources */ = {isa = PBXBuildFile; fileRef = 179049C16A554F26A4278201 /* KZAsserts.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6ECE0E20D826411899482F6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 691630B790DD423EB1B7FF2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E012572ED354717820D6292;
+			remoteInfo = "Pods-KZImageSplitView-KZAsserts";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		179049C16A554F26A4278201 /* KZAsserts.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KZAsserts.m; path = Classes/KZAsserts.m; sourceTree = "<group>"; };
+		2F3E30B00488465889AE28DD /* libPods-KZImageSplitView-KZAsserts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KZImageSplitView-KZAsserts.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CD07920425B44C99871F305 /* Pods-KZImageSplitView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KZImageSplitView.xcconfig"; sourceTree = "<group>"; };
+		4C5329747826496DBA0E73A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		78B0357ECAAE4F5A82CE08EE /* Pods-KZImageSplitView-KZAsserts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KZImageSplitView-KZAsserts-dummy.m"; sourceTree = "<group>"; };
+		878432CB3B80487E800DE331 /* KZAsserts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KZAsserts.h; path = Classes/KZAsserts.h; sourceTree = "<group>"; };
+		8D419260E0854913BE902B62 /* Pods-KZImageSplitView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KZImageSplitView-acknowledgements.plist"; sourceTree = "<group>"; };
+		A845B5E73BE4473D85E34DAA /* Pods-KZImageSplitView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KZImageSplitView-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C3D465C6C1E245409755608A /* Pods-KZImageSplitView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KZImageSplitView-resources.sh"; sourceTree = "<group>"; };
+		C5A80B8AAF1245B287328B9A /* Pods-KZImageSplitView-KZAsserts.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KZImageSplitView-KZAsserts.xcconfig"; sourceTree = "<group>"; };
+		CF099727486F46259AAD9A73 /* Pods-KZImageSplitView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KZImageSplitView-dummy.m"; sourceTree = "<group>"; };
+		D85C6E1FC068458C8DAED805 /* libPods-KZImageSplitView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KZImageSplitView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9A6F0C8E4FD49BA8F539476 /* Pods-KZImageSplitView-KZAsserts-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KZImageSplitView-KZAsserts-Private.xcconfig"; sourceTree = "<group>"; };
+		F1DA4B84F68142CEA2F0CF14 /* Pods-KZImageSplitView-KZAsserts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KZImageSplitView-KZAsserts-prefix.pch"; sourceTree = "<group>"; };
+		F96DDE93304E421F951FA6B2 /* Pods-KZImageSplitView-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KZImageSplitView-environment.h"; sourceTree = "<group>"; };
+		FB672278D2C146BFB31A8086 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73E5159E565040B7A6CB993E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				122A85D3B5D74A54A46817FA /* Foundation.framework in Frameworks */,
+				5A3ECBD17F264EADB24F8160 /* libPods-KZImageSplitView-KZAsserts.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17DC311F074416697441E84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B542D7E60F74F0FA6B89CE8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EFBF757AB29433299E5E8DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D7084AFCA864EBC883DB521 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11FE38C21FB94CCE9EC7B8BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D85C6E1FC068458C8DAED805 /* libPods-KZImageSplitView.a */,
+				2F3E30B00488465889AE28DD /* libPods-KZImageSplitView-KZAsserts.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D7084AFCA864EBC883DB521 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4C5329747826496DBA0E73A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		99675DE603D24B5995C374BA /* Pods-KZImageSplitView */ = {
+			isa = PBXGroup;
+			children = (
+				3CD07920425B44C99871F305 /* Pods-KZImageSplitView.xcconfig */,
+				A845B5E73BE4473D85E34DAA /* Pods-KZImageSplitView-acknowledgements.markdown */,
+				8D419260E0854913BE902B62 /* Pods-KZImageSplitView-acknowledgements.plist */,
+				CF099727486F46259AAD9A73 /* Pods-KZImageSplitView-dummy.m */,
+				F96DDE93304E421F951FA6B2 /* Pods-KZImageSplitView-environment.h */,
+				C3D465C6C1E245409755608A /* Pods-KZImageSplitView-resources.sh */,
+			);
+			name = "Pods-KZImageSplitView";
+			sourceTree = "<group>";
+		};
+		B298EF1F10374A4D94C959AC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5A80B8AAF1245B287328B9A /* Pods-KZImageSplitView-KZAsserts.xcconfig */,
+				E9A6F0C8E4FD49BA8F539476 /* Pods-KZImageSplitView-KZAsserts-Private.xcconfig */,
+				78B0357ECAAE4F5A82CE08EE /* Pods-KZImageSplitView-KZAsserts-dummy.m */,
+				F1DA4B84F68142CEA2F0CF14 /* Pods-KZImageSplitView-KZAsserts-prefix.pch */,
+			);
+			name = "Support Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		B9B932512C284F66B6E66D12 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				99675DE603D24B5995C374BA /* Pods-KZImageSplitView */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BF9F880B60514F5FBA77BDB2 = {
+			isa = PBXGroup;
+			children = (
+				FB672278D2C146BFB31A8086 /* Podfile */,
+				0EFBF757AB29433299E5E8DC /* Frameworks */,
+				ECF55874F87748DABCE27EE3 /* Pods */,
+				11FE38C21FB94CCE9EC7B8BA /* Products */,
+				B9B932512C284F66B6E66D12 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D8C75D5E2D8F4F3A80694D5E /* KZAsserts */ = {
+			isa = PBXGroup;
+			children = (
+				878432CB3B80487E800DE331 /* KZAsserts.h */,
+				179049C16A554F26A4278201 /* KZAsserts.m */,
+				B298EF1F10374A4D94C959AC /* Support Files */,
+			);
+			name = KZAsserts;
+			path = KZAsserts;
+			sourceTree = "<group>";
+		};
+		ECF55874F87748DABCE27EE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8C75D5E2D8F4F3A80694D5E /* KZAsserts */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F86B8468C9ED4BE0BF3E95BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E019FB21EDB47E4838C53F5 /* KZAsserts.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4E012572ED354717820D6292 /* Pods-KZImageSplitView-KZAsserts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01A2157338804B66B0B85BA4 /* Build configuration list for PBXNativeTarget "Pods-KZImageSplitView-KZAsserts" */;
+			buildPhases = (
+				A0EFAA02AA704C068A35F94B /* Sources */,
+				A17DC311F074416697441E84 /* Frameworks */,
+				F86B8468C9ED4BE0BF3E95BB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KZImageSplitView-KZAsserts";
+			productName = "Pods-KZImageSplitView-KZAsserts";
+			productReference = 2F3E30B00488465889AE28DD /* libPods-KZImageSplitView-KZAsserts.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7E906C3A26054A71B06BE9CC /* Pods-KZImageSplitView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CD1C1906FE54016808B5414 /* Build configuration list for PBXNativeTarget "Pods-KZImageSplitView" */;
+			buildPhases = (
+				0C3EB4C519FE43349094A7D1 /* Sources */,
+				73E5159E565040B7A6CB993E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8441D56947144A16BC63F9DA /* PBXTargetDependency */,
+			);
+			name = "Pods-KZImageSplitView";
+			productName = "Pods-KZImageSplitView";
+			productReference = D85C6E1FC068458C8DAED805 /* libPods-KZImageSplitView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		691630B790DD423EB1B7FF2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = B07780F8921645D2BA852BD5 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BF9F880B60514F5FBA77BDB2;
+			productRefGroup = 11FE38C21FB94CCE9EC7B8BA /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+			);
+			projectRoot = "";
+			targets = (
+				7E906C3A26054A71B06BE9CC /* Pods-KZImageSplitView */,
+				4E012572ED354717820D6292 /* Pods-KZImageSplitView-KZAsserts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C3EB4C519FE43349094A7D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9555C1F4E68F4C4A9A80F6B2 /* Pods-KZImageSplitView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0EFAA02AA704C068A35F94B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E906EEB26B934918BBF44D0B /* KZAsserts.m in Sources */,
+				780C25DC99DD4A6E89A959B7 /* Pods-KZImageSplitView-KZAsserts-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8441D56947144A16BC63F9DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E012572ED354717820D6292 /* Pods-KZImageSplitView-KZAsserts */;
+			targetProxy = 6ECE0E20D826411899482F6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0349CB6539C94111A941DE19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9A6F0C8E4FD49BA8F539476 /* Pods-KZImageSplitView-KZAsserts-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-KZImageSplitView-KZAsserts-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		16A5D5D7CCBB418EB1483695 /* profiling */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9A6F0C8E4FD49BA8F539476 /* Pods-KZImageSplitView-KZAsserts-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-KZImageSplitView-KZAsserts-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = profiling;
+		};
+		2055A6C3B7CC4E34B74DC34A /* profiling */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CD07920425B44C99871F305 /* Pods-KZImageSplitView.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = profiling;
+		};
+		2D9029FD9C884647A60E55DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9A6F0C8E4FD49BA8F539476 /* Pods-KZImageSplitView-KZAsserts-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-KZImageSplitView-KZAsserts-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		551D79B04A574D4790E8BEF2 /* profiling */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = profiling;
+		};
+		836828D86703496DA748D7DA /* adhoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = adhoc;
+		};
+		85CC0D8F6B8C4F53B4FFF8FF /* adhoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CD07920425B44C99871F305 /* Pods-KZImageSplitView.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = adhoc;
+		};
+		CB3C531B00184859890A65D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDB75E7D74F5484985701779 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CD07920425B44C99871F305 /* Pods-KZImageSplitView.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9440B8B7F9847F2952F0773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CD07920425B44C99871F305 /* Pods-KZImageSplitView.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F58874105C1F4AAF8CCCA92D /* adhoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9A6F0C8E4FD49BA8F539476 /* Pods-KZImageSplitView-KZAsserts-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-KZImageSplitView-KZAsserts-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = adhoc;
+		};
+		F9A911FC642B465FB67688B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01A2157338804B66B0B85BA4 /* Build configuration list for PBXNativeTarget "Pods-KZImageSplitView-KZAsserts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0349CB6539C94111A941DE19 /* Debug */,
+				2D9029FD9C884647A60E55DC /* Release */,
+				F58874105C1F4AAF8CCCA92D /* adhoc */,
+				16A5D5D7CCBB418EB1483695 /* profiling */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CD1C1906FE54016808B5414 /* Build configuration list for PBXNativeTarget "Pods-KZImageSplitView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9440B8B7F9847F2952F0773 /* Debug */,
+				CDB75E7D74F5484985701779 /* Release */,
+				85CC0D8F6B8C4F53B4FFF8FF /* adhoc */,
+				2055A6C3B7CC4E34B74DC34A /* profiling */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B07780F8921645D2BA852BD5 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9A911FC642B465FB67688B2 /* Debug */,
+				CB3C531B00184859890A65D5 /* Release */,
+				836828D86703496DA748D7DA /* adhoc */,
+				551D79B04A574D4790E8BEF2 /* profiling */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 691630B790DD423EB1B7FF2D /* Project object */;
+}
